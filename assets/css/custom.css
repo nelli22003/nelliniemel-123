@@ -10,8 +10,22 @@ header{
 footer{
     background-color: black;
     color: white;
+    height: 70px;
+    text-align: center;
 }
 
 .red{
     background-color: rgb(232, 208, 143);
+}
+
+.col1{
+background-color: rgb(221, 196, 213);
+}
+
+.col2{
+background-color: rgb(196, 219, 212);
+}
+
+.col3{
+background-color: rgb(194, 194, 232);
 }
