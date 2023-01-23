@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(230, 220, 187);
+}
+
+header{
+    background-color: rgb(201, 170, 124);
+    color: white;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+.red{
+    background-color: rgb(232, 208, 143);
+}

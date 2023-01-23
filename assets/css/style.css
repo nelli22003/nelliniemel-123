@@ -6,6 +6,42 @@ color:rgb(78, 60, 60)
 
 }
 
+section{
+  display: flex;
+  flex-direction: column;
+}
+
+article{
+  
+}
+
+sidebar{
+  margin: 10px;
+  background-color: white;
+  min-width: 200px;
+}
+
+.container{
+  display: flex;
+  background-color: white;
+}
+
+
+.bar{
+  width: 15%;
+  display: flex;
+  flex-direction: row;
+}
+
+.main{
+  width: 85%;
+}
+
+ul {
+  list-style: none;
+  margin-top: 40px;
+}
+
 h1 {
 margin-top: 10px;
 margin-bottom: 10px;
@@ -31,10 +67,6 @@ a:link {
   a:visited {
     color: rgb(151, 60, 60);
   }
-  
-p {
-
-}
 
 img {
 border: 1px;
@@ -45,7 +77,16 @@ width: 250px;
 opacity: 0.5;
 }
 
-ul {
+
+body {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  font: .9em/1.2 Arial, Helvetica, sans-serif
+} 
+
+
+p {
 
 }
 
@@ -60,3 +101,4 @@ figure {
 #note {
 
 }
+
